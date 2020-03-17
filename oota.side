@@ -1,0 +1,231 @@
+{
+  "id": "c0e77bd6-238a-42bd-9a27-5a3e73422275",
+  "version": "2.0",
+  "name": "oota",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "4b72c5d1-6386-40f6-bc5e-1058d1aa2207",
+    "name": "test0",
+    "commands": [{
+      "id": "bb1de2de-1430-494b-9989-ba709f7e8736",
+      "comment": "",
+      "command": "open",
+      "target": "/kadapallanithin/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ea3309a-365c-4152-806e-2db478bcee19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18d67583-1e3b-48fd-bfac-d4a92cc73102",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=pipasa/",
+      "targets": [
+        ["linkText=pipasa/", "linkText"],
+        ["css=tr:nth-child(8) a", "css:finder"],
+        ["xpath=//a[contains(text(),'pipasa/')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'pipasa/')]", "xpath:href"],
+        ["xpath=//tr[8]/td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'pipasa/')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccbd5e8f-bb18-438d-a985-20c8aff74e52",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=kendram/",
+      "targets": [
+        ["linkText=kendram/", "linkText"],
+        ["css=tr:nth-child(4) a", "css:finder"],
+        ["xpath=//a[contains(text(),'kendram/')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'kendram/')]", "xpath:href"],
+        ["xpath=//tr[4]/td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'kendram/')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb6a1c14-a77b-47cd-a3c7-7dd5bc287bac",
+      "comment": "",
+      "command": "click",
+      "target": "id=prod",
+      "targets": [
+        ["id=prod", "id"],
+        ["css=#prod", "css:finder"],
+        ["xpath=//input[@id='prod']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48549b8e-347b-4c6a-a348-f66269d621a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=prod",
+      "targets": [
+        ["id=prod", "id"],
+        ["css=#prod", "css:finder"],
+        ["xpath=//input[@id='prod']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "04e5cc68-1f7a-4b07-9633-56d58a2cc55d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@onclick='start();']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "00e82f86-8ed0-4dae-9ef8-dc60a8db26d2",
+    "name": "test0 (1)",
+    "commands": [{
+      "id": "3b822895-c0bf-45b7-9495-beebf30cbf44",
+      "comment": "",
+      "command": "open",
+      "target": "/kadapallanithin/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abea9b2d-172a-46f5-a08c-628cc3057f48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bd8d172-c7f4-43f5-98cc-5bd68b591f75",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=pipasa/",
+      "targets": [
+        ["linkText=pipasa/", "linkText"],
+        ["css=tr:nth-child(8) a", "css:finder"],
+        ["xpath=//a[contains(text(),'pipasa/')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'pipasa/')]", "xpath:href"],
+        ["xpath=//tr[8]/td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'pipasa/')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a70dbe9-5a85-4a6d-be6d-3e513992de4b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=kendram/",
+      "targets": [
+        ["linkText=kendram/", "linkText"],
+        ["css=tr:nth-child(4) a", "css:finder"],
+        ["xpath=//a[contains(text(),'kendram/')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'kendram/')]", "xpath:href"],
+        ["xpath=//tr[4]/td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'kendram/')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba23a55b-f46e-46bc-8b17-0d4799a255cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=prod",
+      "targets": [
+        ["id=prod", "id"],
+        ["css=#prod", "css:finder"],
+        ["xpath=//input[@id='prod']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "269e8a98-4526-4921-9d84-88b39298149b",
+      "comment": "",
+      "command": "type",
+      "target": "id=prod",
+      "targets": [
+        ["id=prod", "id"],
+        ["css=#prod", "css:finder"],
+        ["xpath=//input[@id='prod']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "047e3365-1dc9-4aaf-8786-64b3616be8bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@onclick='start();']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4587cee-5bd7-46dc-bb05-383164ba0b3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=str",
+      "targets": [
+        ["id=str", "id"],
+        ["css=#str", "css:finder"],
+        ["xpath=//button[@id='str']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d475c2b-5092-4c25-ba42-7bd05c0e312e",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "315fe523-fcb4-47e3-8a36-5f80d3a7c9c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=fin",
+      "targets": [
+        ["id=fin", "id"],
+        ["css=#fin", "css:finder"],
+        ["xpath=//button[@id='fin']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf894789-3144-4d0b-922d-00e3ac2c742a",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "wish to finish?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c289bb10-519b-47ab-91d1-9c2359f498f9",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54af6679-009a-4d45-b270-d03fb5582a02",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Finished",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b72c32d0-570e-4f60-9092-fa3a907a1e75",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4b72c5d1-6386-40f6-bc5e-1058d1aa2207"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}

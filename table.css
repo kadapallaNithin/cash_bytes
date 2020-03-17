@@ -1,0 +1,25 @@
+﻿/*table{
+    border:2px solid green;
+}
+td{
+    border:1px solid blue;
+}*/
+tr:nth-child(even) {
+    background: #0b6;
+    color: white;
+    opacity: 0.5;
+}
+
+tr:hover {
+    background: skyblue;
+    color: white;
+}
+.even{
+    background:#0b6;
+    color:white;
+    /*opacity:;*/
+}
+.heading{
+    background-color:aquamarine;
+    border:1px solid hidden;
+}
